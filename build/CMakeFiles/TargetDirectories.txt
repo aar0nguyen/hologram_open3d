@@ -1,3 +1,4 @@
-/home/boolmon/github/hologram_open3d/build/CMakeFiles/main.dir
+/home/boolmon/github/hologram_open3d/build/CMakeFiles/main_cylinder.dir
+/home/boolmon/github/hologram_open3d/build/CMakeFiles/main_square.dir
 /home/boolmon/github/hologram_open3d/build/CMakeFiles/edit_cache.dir
 /home/boolmon/github/hologram_open3d/build/CMakeFiles/rebuild_cache.dir

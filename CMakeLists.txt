@@ -13,7 +13,10 @@ find_package(Open3D REQUIRED)
 set(CMAKE_CXX_STANDARD 11)
 
 # Add executable target
-add_executable(main src/main.cpp)
+add_executable(main_cylinder src/main_cylinder.cpp)
+add_executable(main_square src/main_square.cpp)
+
 
 # Link Open3D library
-target_link_libraries(main PRIVATE Open3D::Open3D)
+target_link_libraries(main_cylinder PRIVATE Open3D::Open3D)
+target_link_libraries(main_square PRIVATE Open3D::Open3D)
