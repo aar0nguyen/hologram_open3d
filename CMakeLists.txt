@@ -10,7 +10,7 @@ set(CMAKE_PREFIX_PATH "/home/boolmon/Open3D/Open3D/build")
 find_package(Open3D REQUIRED)
 
 # Specify the C++ standard
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
 # Add executable target
 add_executable(main src/main.cpp)
