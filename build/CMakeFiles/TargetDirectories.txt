@@ -1,0 +1,3 @@
+/home/boolmon/Documents/G17 Holo/Open3D/Hologram/build/CMakeFiles/main.dir
+/home/boolmon/Documents/G17 Holo/Open3D/Hologram/build/CMakeFiles/edit_cache.dir
+/home/boolmon/Documents/G17 Holo/Open3D/Hologram/build/CMakeFiles/rebuild_cache.dir

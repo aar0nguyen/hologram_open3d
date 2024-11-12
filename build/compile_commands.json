@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/boolmon/Documents/G17 Holo/Open3D/Hologram/build",
+  "command": "/usr/bin/clang++ -DFMT_HEADER_ONLY=0 -DFMT_STRING_ALIAS=1 -DFMT_USE_WINDOWS_H=0 -DOPEN3D_STATIC -D_GLIBCXX_USE_CXX11_ABI=1 -isystem /usr/local/include/open3d/3rdparty -g -std=gnu++17 -o CMakeFiles/main.dir/src/main.cpp.o -c \"/home/boolmon/Documents/G17 Holo/Open3D/Hologram/src/main.cpp\"",
+  "file": "/home/boolmon/Documents/G17 Holo/Open3D/Hologram/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+}
+]
