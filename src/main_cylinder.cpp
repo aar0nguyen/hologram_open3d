@@ -5,6 +5,11 @@
 
 using namespace open3d;
 
+// Assuming `voxelized_cloud` is a PointCloud containing the voxel grid data
+bool SaveVoxelGridAsPointCloud(const std::shared_ptr<open3d::geometry::PointCloud>& voxelized_cloud, const std::string& filename) {
+    return open3d::io::WritePointCloud(filename, *voxelized_cloud);
+}
+
 // Structure to store cylindrical voxel indices
 struct CylindricalVoxel {
     int radial_index;
@@ -118,11 +123,19 @@ int main(int argc, char** argv) {
 
     // Set cylindrical grid resolutions
     double radial_resolution = 0.1;   // radial step
-    double angular_resolution = M_PI / 18.0; // 10 degrees
+    double angular_resolution = M_PI / 72.0; // 10 degrees
     double height_resolution = 0.1;   // height step
 
     // Voxelize the mesh with cylindrical grid and colors
     auto voxelized_cloud = CylindricalVoxelizeMeshWithColor(mesh, radial_resolution, angular_resolution, height_resolution);
+
+    // Save the voxel grid as a .ply file
+    if (SaveVoxelGridAsPointCloud(voxelized_cloud, "cylindrical_voxel_grid.ply")) {
+        std::cout << "Successfully saved voxel grid as a point cloud." << std::endl;
+    } else {
+        std::cerr << "Failed to save voxel grid as a point cloud." << std::endl;
+    }
+
 
     // Visualize the result
     visualization::DrawGeometries({voxelized_cloud}, "Cylindrical Voxelized Model with Color");
