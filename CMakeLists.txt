@@ -1,5 +1,8 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.14)  
+
 project(Open3DProject)
+
+cmake_policy(SET CMP0074 NEW)  
 
 set(CMAKE_PREFIX_PATH "/home/boolmon/Open3D/Open3D/build")
 
