@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Open3DProject",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "main_voxel_model_cartesian::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_voxel_model_cartesian-Debug-0eec5b5b50defa51f49e.json",
+					"name" : "main_voxel_model_cartesian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_voxel_model_cylinder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_voxel_model_cylinder-Debug-7cdadf2a13bc7b37c467.json",
+					"name" : "main_voxel_model_cylinder",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/boolmon/github/hologram_open3d/build",
+		"source" : "/home/boolmon/github/hologram_open3d"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.14)  
+cmake_minimum_required(VERSION 3.15)
+cmake_policy(SET CMP0077 NEW)
+
 
 project(Open3DProject)
-
-cmake_policy(SET CMP0074 NEW)  
 
 set(CMAKE_PREFIX_PATH "/home/boolmon/Open3D/Open3D/build")
 
@@ -10,13 +10,13 @@ set(CMAKE_PREFIX_PATH "/home/boolmon/Open3D/Open3D/build")
 find_package(Open3D REQUIRED)
 
 # Specify the C++ standard
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 # Add executable target
-add_executable(main_cylinder src/main_cylinder.cpp)
-add_executable(main_square src/main_square.cpp)
+add_executable(main_voxel_model_cartesian src/main_voxel_model_cartesian.cpp)
+add_executable(main_voxel_model_cylinder src/main_voxel_model_cylinder.cpp)
 
 
 # Link Open3D library
-target_link_libraries(main_cylinder PRIVATE Open3D::Open3D)
-target_link_libraries(main_square PRIVATE Open3D::Open3D)
+target_link_libraries(main_voxel_model_cartesian PRIVATE Open3D::Open3D)
+target_link_libraries(main_voxel_model_cylinder PRIVATE Open3D::Open3D)
