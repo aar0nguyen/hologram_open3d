@@ -1,4 +1,3 @@
-/home/boolmon/github/hologram_open3d/build/CMakeFiles/main_voxel_model_cartesian.dir
-/home/boolmon/github/hologram_open3d/build/CMakeFiles/main_voxel_model_cylinder.dir
-/home/boolmon/github/hologram_open3d/build/CMakeFiles/edit_cache.dir
-/home/boolmon/github/hologram_open3d/build/CMakeFiles/rebuild_cache.dir
+/home/boolmon/Documents/GitHub/hologram_open3d/build/CMakeFiles/main_voxel_cylinder.dir
+/home/boolmon/Documents/GitHub/hologram_open3d/build/CMakeFiles/edit_cache.dir
+/home/boolmon/Documents/GitHub/hologram_open3d/build/CMakeFiles/rebuild_cache.dir
